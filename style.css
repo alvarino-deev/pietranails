@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fde2e4, #fadadd);
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD PRINCIPAL */
+.card {
+    background: #ffffff;
+    width: 95%;
+    max-width: 420px;
+    padding: 32px;
+    border-radius: 26px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* TÍTULO */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    color: #c9184a;
+}
+
+.subtitulo {
+    margin-top: 6px;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+/* PREÇOS */
+.precos h2 {
+    font-family: 'Playfair Display', serif;
+    color: #c9184a;
+    margin-bottom: 16px;
+}
+
+.precos ul {
+    list-style: none;
+}
+
+.precos li {
+    background: #fff0f3;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #6a040f;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* CONTATO */
+.contato {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato .icone {
+    font-size: 22px;
+}
+
+.contato .numero {
+    font-size: 17px;
+    font-weight: 500;
+    color: #25d366;
+}
+
+
+
+
